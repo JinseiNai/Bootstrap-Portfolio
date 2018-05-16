@@ -1,0 +1,23 @@
+html, 
+body {
+    background-image: url(../images/hypnotize.png)
+}
+
+header {
+    background-color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    padding: 10px 20px;
+}
+
+.container {
+    max-width: 960px;
+    /* background-color: white; */
+}
+
