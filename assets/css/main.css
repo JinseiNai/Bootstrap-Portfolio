@@ -2,6 +2,7 @@ html,
 body {
     background-image: url(../images/hypnotize.png);
     font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
 }
 
 h1,
@@ -46,22 +47,77 @@ hr {
 .nav-link {
     padding-top: 0;
     padding-bottom: 0;
+    color: #777777;
 }
 
 .navbar ul li:nth-child(2),
 .navbar ul li:last-child {
-    border-left: 1px solid #dddddd;
+    border-left: 1px solid #cccccc;
 }
 
 .main-content {
     background-color: #ffffff;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .profile-pic {
     width: 100%;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 .main-content p {
-    line-height: ;
+    line-height: 2em;
+    letter-spacing: 2px;
+}
+
+.main-content p::first-line {
+    line-height: 1;
+}
+
+.padding {
+    padding: 0;
+}
+
+.card-footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.card-footer p {
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+[type="submit"] {
+    background-color: #4aaaa5;
+    border-radius: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+input::placeholder {
+    opacity: 0.3;
+    font-style: italic;
+}
+
+.projects {
+    width: 100%;
+    max-height: 250px;
+    margin-bottom: 30px;
+}
+
+.carousel-caption {
+    background-color: #4aaaa5;
+    right: 0;
+    left: 0;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
